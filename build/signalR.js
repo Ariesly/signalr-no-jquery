@@ -11,7 +11,7 @@ var jQueryShim = require('./jQueryShim');
 /* jquery.signalR.core.js */
 /*global window:false */
 /*!
- * ASP.NET SignalR JavaScript Library v2.2.2
+ * ASP.NET SignalR JavaScript Library v2.2.3
  * http://signalr.net/
  *
  * Copyright (c) .NET Foundation. All rights reserved.
@@ -2870,7 +2870,7 @@ var jQueryShim = require('./jQueryShim');
 /*global window:false */
 /// <reference path="jquery.signalR.core.js" />
 (function ($, undefined) {
-    $.signalR.version = "2.2.2";
+    $.signalR.version = "2.2.3";
 })(jQueryShim);
 
 var hubConnection = exports.hubConnection = jQueryShim.hubConnection;
